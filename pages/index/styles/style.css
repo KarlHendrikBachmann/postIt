@@ -1,0 +1,30 @@
+section {
+    background-color: cadetblue;
+    width: 100%;
+    align-content: center;
+}
+.post-logs {
+    margin: auto;
+    background-color: white;
+    max-width: 50%;
+    align-content: center;
+}
+
+.post {
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    margin: 10px 20px 10px 20px;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+.post-picture {
+    width : 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: left;
+}
