@@ -1,3 +1,9 @@
+body{
+    background-color: #1473bb;
+    
+}
+
+
 section {
     align-content: center;
     margin: auto;
@@ -9,11 +15,11 @@ section {
     top: 50%;
     left: 50%;
     width:30em;
-    height:18em;
+    height:23em;
     margin-top: -9em;
     margin-left: -15em;
     border: 1px solid #ccc;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
 
 .container {
@@ -24,3 +30,43 @@ input {
     display: block;
     margin: 0 auto;
 }
+
+#login-logo{
+    height: 20%;
+    width: 20%;
+    float:left;
+}
+
+.container > button{
+    /*Part of it is from w3schools*/
+    background-color: #0d579b;
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding: 2%;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-width: 5px;
+    border-color: #0d579b;
+    border-radius: 5px;
+}
+
+.container > button:hover{
+    background-color: #093d6e;
+}
+
+a{
+    color:#5ecaff;
+}
+
+#email, #psw {
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin:auto;
+    margin-bottom: 5px;
+  }
