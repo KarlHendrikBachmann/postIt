@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
 section {
     background-color: #007ebd;
     width: 100%;
@@ -8,7 +11,7 @@ section {
     background-color: white;
     max-width: 40%;
     align-content: center;
-    padding: 70px 100px 70px 100px;
+    padding: 120px 100px 70px 100px;
 }
 
 .post {
@@ -36,10 +39,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 nav div img {
     width: 30px;
-    margin: 5px 10px 5px 20px;
+    margin: 10px;
 }
 .profile-picture {
     width: 30px;
@@ -56,11 +64,20 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    height: 21px;
+    height: 29px;
+    width: 95px;
+    border-radius: 3px;
 }
 .search-container {
     align-items: center;
+    padding-right: 15px;
+}
+.search-container input {
+    width: 620px;
     height: 25px;
+    border-style: solid;
+    border-color: #d6d6d6;
+    border-width: thin;
 }
 .post-header {
     display: flex;
