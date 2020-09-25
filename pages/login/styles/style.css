@@ -10,6 +10,7 @@ section {
 }
 
 .login {
+    display: flex;
     text-align: center;
     position:fixed;
     top: 50%;
@@ -20,6 +21,9 @@ section {
     margin-left: -15em;
     border: 1px solid #ccc;
     background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .container {
@@ -32,9 +36,7 @@ input {
 }
 
 #login-logo{
-    height: 20%;
-    width: 20%;
-    float:left;
+    width: 60%;
 }
 
 .container > button{
@@ -44,7 +46,7 @@ input {
     color: white;
     text-align: center;
     margin-top: 5px;
-    padding: 2%;
+    padding: 5%;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
@@ -69,4 +71,21 @@ a{
     box-sizing: border-box;
     margin:auto;
     margin-bottom: 5px;
+  }
+
+  .login-header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-header > .empty {
+      width: 33%;
+      height: 100%;
+  }
+
+  .login-header > span{
+      width: 33%;
+      height: 100%;
   }
