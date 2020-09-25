@@ -39,7 +39,7 @@ input {
     width: 60%;
 }
 
-.container > button{
+#email ~ button{
     /*Part of it is from w3schools*/
     background-color: #0d579b;
     border: none;
@@ -80,7 +80,7 @@ a{
     align-items: center;
   }
 
-  .login-header > .empty {
+h2 + .empty {
       width: 33%;
       height: 100%;
   }
