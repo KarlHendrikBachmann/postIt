@@ -1,30 +1,73 @@
 section {
-    background-color: cadetblue;
+    background-color: #007ebd;
     width: 100%;
     align-content: center;
 }
 .post-logs {
     margin: auto;
     background-color: white;
-    max-width: 50%;
+    max-width: 40%;
     align-content: center;
+    padding: 70px 100px 70px 100px;
 }
 
 .post {
-    background-color: red;
+    background-color: white;
     text-align: center;
     margin: auto;
     max-width: 100%;
     margin: 10px 20px 10px 20px;
-    border-style: outset;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #858585;
 }
 
 .post-picture {
-    width : 300px;
-    height: 300px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 h1 {
     text-align: left;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div img {
+    width: 30px;
+    margin: 5px 10px 5px 20px;
+}
+.profile-picture {
+    width: 30px;
+    margin: 10px;
+}
+.like-button img {
+    width: 40px;
+    margin: 10px;
+}
+button {
+    background-color: #334ba3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 21px;
+}
+.search-container {
+    align-items: center;
+    height: 25px;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-footer {
+    display: flex;
+}
+.date {
+    color: #858585;
+    margin: 10px;
+}
+.post-info h1 {
+    margin: 10px;
 }
