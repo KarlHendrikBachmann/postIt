@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e78a9e45-d6ce-4f36-b3ba-6e0d400573e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/index/res/Profile_picture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/res/like.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/res/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index/res/postIt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,6 +53,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e78a9e45-d6ce-4f36-b3ba-6e0d400573e3" name="Default Changelist" comment="" />
@@ -77,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
